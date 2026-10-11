@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#171411" />
+    <meta
+      name="description"
+      content="Meet RetroBites, an Aftabnagar favorite for meatbox and juicy tilapia barbeque."
+    />
+    <title>RetroBites — Aftabnagar, Dhaka</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="announcement">
+      Aftabnagar's <strong>meatbox favorite</strong> · come hungry
+    </div>
+
+    <header class="site-header">
+      <div class="container navigation">
+        <a class="brand" href="#top" aria-label="RetroBites home">
+          retro<span>bites</span>.
+        </a>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="main-menu"
+        >
+          <span class="menu-toggle-label">Menu</span>
+          <span class="menu-toggle-icon" aria-hidden="true">☰</span>
+        </button>
+
+        <nav class="main-menu" id="main-menu" aria-label="Main navigation">
+          <a href="#favorites">The favorites</a>
+          <a href="#story">Our place</a>
+          <a href="#reviews">Reviews</a>
+        </nav>
+
+        <a class="button button-small header-cta" href="#visit">
+          Find us <span aria-hidden="true">↗</span>
+        </a>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero section-space">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Aftabnagar, Dhaka</p>
+            <h1>Good food.<br />Great <em>memories.</em></h1>
+            <p class="intro-text">
+              The kind of neighborhood spot you tell your friends about. Come by
+              for a seriously satisfying meatbox and stay for the warm,
+              easygoing vibe.
+            </p>
+
+            <div class="hero-actions">
+              <a class="button" href="#favorites">
+                See the favorites <span aria-hidden="true">↗</span>
+              </a>
+              <a class="text-link" href="#reviews">Read the reviews</a>
+            </div>
+
+            <div class="rating-summary" aria-label="Rated 4.8 out of 5 from 5 reviews">
+              <span class="stars" aria-hidden="true">★★★★★</span>
+              <div>
+                <strong>4.8</strong>
+                <span class="rating-caption">from 5 local reviews</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-visual">
+            <img
+              class="hero-photo"
+              src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&amp;fit=crop&amp;w=1300&amp;q=85"
+              alt="A richly grilled restaurant meal"
+            />
+            <div class="photo-note">
+              <strong>A neighborhood favorite</strong>
+              <span>Good things are happening in Aftabnagar</span>
+            </div>
+            <div class="photo-stamp" aria-label="Made to hit the spot">
+              <strong>Made<br />to hit</strong>
+              <span>the spot</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="ticker" aria-hidden="true">
+        GOOD FOOD, GOOD MOOD <span>✳</span> YOUR AFTABNAGAR FAVORITE
+        <span>✳</span> COME HUNGRY <span>✳</span> GOOD FOOD, GOOD MOOD
+      </div>
+
+      <section class="section-space favorites" id="favorites">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">A little something for everyone</p>
+              <h2>The local legends.</h2>
+            </div>
+            <p class="section-intro">
+              Some dishes keep people coming back. Here are two that have
+              earned their place in the conversation.
+            </p>
+          </div>
+
+          <div class="food-grid">
+            <article class="food-card">
+              <img
+                src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&amp;fit=crop&amp;w=1000&amp;q=85"
+                alt="Grilled meat served fresh"
+                loading="lazy"
+              />
+              <div class="food-card-content">
+                <div>
+                  <span class="food-label">The neighborhood favorite</span>
+                  <h3>The Meatbox</h3>
+                  <p>The one people come to Aftabnagar for.</p>
+                </div>
+                <span class="stars" aria-label="5 stars">★★★★★</span>
+              </div>
+            </article>
+
+            <article class="food-card">
+              <img
+                src="https://images.unsplash.com/photo-1510130387422-82bed34b37e9?auto=format&amp;fit=crop&amp;w=1000&amp;q=85"
+                alt="Barbequed fish with fresh herbs"
+                loading="lazy"
+              />
+              <div class="food-card-content">
+                <div>
+                  <span class="food-label">A local reviewer's pick</span>
+                  <h3>Tilapia Barbeque</h3>
+                  <p>Juicy, flavorful, and worth a visit.</p>
+                </div>
+                <span class="stars" aria-label="5 stars">★★★★★</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-space story" id="story">
+        <div class="container story-grid">
+          <img
+            class="story-photo"
+            src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&amp;fit=crop&amp;w=1100&amp;q=85"
+            alt="A spread of grilled food"
+            loading="lazy"
+          />
+          <div class="story-copy">
+            <p class="eyebrow">A good place to land</p>
+            <h2>Made for the<br />neighborhood.</h2>
+            <p>
+              RetroBites is an Aftabnagar spot with a simple promise: food worth
+              talking about, served with a welcome that makes you feel at home.
+              Whether you're stopping in nearby or making a trip for that
+              meatbox, there's a seat for you.
+            </p>
+            <a class="story-link" href="#visit">
+              Your table is waiting <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-space reviews" id="reviews">
+        <div class="container review-grid">
+          <div class="review-summary">
+            <p class="eyebrow">Don't just take our word for it</p>
+            <h2>Kind words<br />from around<br />the table.</h2>
+            <p class="review-score">4.8 <span>/ 5</span></p>
+            <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <p class="review-count">Based on 5 Google reviews</p>
+          </div>
+
+          <div class="review-list">
+            <article class="review">
+              <div class="review-heading">
+                <strong>Taki Rahman</strong>
+                <span class="review-source">Local Guide</span>
+                <span class="stars" aria-label="5 stars">★★★★★</span>
+              </div>
+              <p>“Hands down one of the best meatboxes in Aftabnagar.”</p>
+            </article>
+
+            <article class="review">
+              <div class="review-heading">
+                <strong>Abu Bokor Shibly</strong>
+                <span class="review-source">Local Guide</span>
+                <span class="stars" aria-label="5 stars">★★★★★</span>
+              </div>
+              <p>
+                “Had meat box and it was really good. Their tilapia barbeque
+                was also tasty, the right amount of juicy.”
+              </p>
+            </article>
+
+            <article class="review">
+              <div class="review-heading">
+                <strong>Keya Rani</strong>
+                <span class="stars" aria-label="5 stars">★★★★★</span>
+              </div>
+              <p>A recent five-star rating for the food and service.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="visit" id="visit">
+        <div class="container visit-content">
+          <div>
+            <p class="eyebrow">Come on over</p>
+            <h2>Good food is closer than you think.</h2>
+            <p>Find RetroBites in Aftabnagar, Dhaka. We’ll save you a seat.</p>
+          </div>
+          <a
+            class="button"
+            href="https://www.google.com/maps/search/?api=1&amp;query=RetroBites+Aftabnagar+Dhaka"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Get directions <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-content">
+        <a class="brand footer-brand" href="#top">retro<span>bites</span>.</a>
+        <p>Aftabnagar, Dhaka · Good food, good memories.</p>
+        <small>© <span id="current-year">2026</span> RetroBites</small>
+      </div>
+    </footer>
+  </body>
+</html>
